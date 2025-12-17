@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.egg-info/
+dist/
+build/
+
+# VSCode
+.vscode/
+
+# Docker volumes
+pgdata/
+*.db
+
+# Environment
+.env
+.env.*
+!.env.example   # <-- Permite versionar apenas o .env.example
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Alembic
+migrations/__pycache__/
